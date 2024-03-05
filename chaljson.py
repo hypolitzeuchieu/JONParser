@@ -13,7 +13,7 @@ def is_json(file_path):
         return False
 
 
-filename = "/home/hypolit/project/pro2/test.txt"
+filename = "path/to/test.txt"
 if is_json(filename):
     print("yes it's a valid JSON")
 else:
